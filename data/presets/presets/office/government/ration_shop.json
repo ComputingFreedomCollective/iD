@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-town_hall",
+    "fields": [
+        "{office}",
+        "operator"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+    ],
+    "tags": {
+        "building": "government",
+        "shop": "grocery",
+        "operator": "public_distribution_system"
+    },
+    "reference": {
+        "key": "operator",
+        "value": "public_distribution_system"
+    },
+    "name": "Ration shop"
+}

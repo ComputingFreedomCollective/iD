@@ -2954,7 +2954,8 @@
                     "label": "Type"
                 },
                 "automated": {
-                    "label": "Automated"
+                    "label": "Automated",
+                    "terms": ""
                 },
                 "baby_feeding": {
                     "label": "Baby Nursing Area",
@@ -5447,8 +5448,8 @@
                     "terms": "credit union,check,deposit,fund,investment,repository,reserve,safe,savings,stock,treasury,trust,vault"
                 },
                 "amenity/bar": {
-                    "name": "Bar",
-                    "terms": "dive,beer,bier,booze"
+                    "name": "Fresh Juice Shop",
+                    "terms": "dive"
                 },
                 "amenity/bar/lgbtq": {
                     "name": "LGBTQ+ Bar",
@@ -5543,7 +5544,7 @@
                     "terms": "drive-in,film,flick,movie,theater,picture,show,screen"
                 },
                 "amenity/clinic": {
-                    "name": "Clinic",
+                    "name": "Medical Center",
                     "terms": "medical,urgentcare"
                 },
                 "amenity/clinic/abortion": {
@@ -5583,7 +5584,7 @@
                     "terms": "auditorium,conference,exhibition,exposition,lecture"
                 },
                 "amenity/courthouse": {
-                    "name": "Courthouse",
+                    "name": "Court",
                     "terms": ""
                 },
                 "amenity/crematorium": {
@@ -5619,7 +5620,7 @@
                     "terms": ""
                 },
                 "amenity/events_venue": {
-                    "name": "Events Venue",
+                    "name": "Auditorium",
                     "terms": "banquet hall,baptism,Bar Mitzvah,Bat Mitzvah,birthdays,celebrations,conferences,confirmation,meetings,parties,party,quinceañera,reunions,weddings"
                 },
                 "amenity/exhibition_centre": {
@@ -5627,7 +5628,7 @@
                     "terms": "exhibition center,fair,exhibition,exposition,trade fair,trade show,trade exhibition,expo,tradeshow"
                 },
                 "amenity/fast_food": {
-                    "name": "Fast Food",
+                    "name": "Thattukada",
                     "terms": "restaurant,takeaway"
                 },
                 "amenity/fast_food/ice_cream": {
@@ -5682,7 +5683,7 @@
                     "terms": "basin,water"
                 },
                 "amenity/fuel": {
-                    "name": "Gas Station",
+                    "name": "Petrol Pump",
                     "terms": "petrol,fuel,gasoline,propane,diesel,lng,cng,biodiesel"
                 },
                 "amenity/gambling": {
@@ -5818,7 +5819,7 @@
                     "terms": "interactive kiosk,ekiosk,atm,bill pay,tax pay,phone pay,finance,cash,money transfer,card"
                 },
                 "amenity/pharmacy": {
-                    "name": "Pharmacy Counter",
+                    "name": "Medical Store",
                     "terms": "apothecary,drug store,drugstore,med*,prescription"
                 },
                 "amenity/photo_booth": {
@@ -5902,7 +5903,7 @@
                     "terms": "academic,ACT,SAT,homework,math,reading,test prep,tutoring,writing"
                 },
                 "amenity/prison": {
-                    "name": "Prison Grounds",
+                    "name": "Jail",
                     "terms": "cell,jail,correction"
                 },
                 "amenity/pub": {
@@ -5954,7 +5955,7 @@
                     "terms": "applied research,experimentation,r&d,r & d,r and d,research and development,research institution,research laboratory,research labs"
                 },
                 "amenity/restaurant": {
-                    "name": "Restaurant",
+                    "name": "Hotel",
                     "terms": "bar,breakfast,cafe,café,canteen,coffee,dine,dining,dinner,drive-in,eat,grill,lunch,table"
                 },
                 "amenity/restaurant/american": {
@@ -6054,7 +6055,7 @@
                     "terms": "pavilion"
                 },
                 "amenity/shelter/public_transport": {
-                    "name": "Transit Shelter",
+                    "name": "Bus Shelter",
                     "terms": "bus stop,metro stop,public transit shelter,public transport shelter,tram stop shelter,waiting"
                 },
                 "amenity/shower": {
@@ -6082,7 +6083,7 @@
                     "terms": ""
                 },
                 "amenity/social_facility/group_home": {
-                    "name": "Elderly Group Home",
+                    "name": "Old age home",
                     "terms": "old,senior,living,care home,assisted living"
                 },
                 "amenity/social_facility/homeless_shelter": {
@@ -6114,7 +6115,7 @@
                     "terms": "movie production,movie studio,video production,video recording,video studio"
                 },
                 "amenity/taxi": {
-                    "name": "Taxi Stand",
+                    "name": "Auto Stand",
                     "terms": "cab"
                 },
                 "amenity/telephone": {
@@ -6266,7 +6267,7 @@
                     "terms": "bin,garbage,rubbish,litter,trash"
                 },
                 "amenity/waste_disposal": {
-                    "name": "Garbage Dumpster",
+                    "name": "Waste bin",
                     "terms": "garbage,rubbish,litter,trash"
                 },
                 "amenity/waste_transfer_station": {
@@ -6286,7 +6287,7 @@
                     "terms": ""
                 },
                 "amenity/weighbridge": {
-                    "name": "Truck Scale",
+                    "name": "Weighbridge",
                     "terms": "weigh station,weighbridge"
                 },
                 "area": {
@@ -7343,7 +7344,7 @@
                     "terms": "on ramp,off ramp,ramp,road,street"
                 },
                 "highway/primary": {
-                    "name": "Primary Road",
+                    "name": "State Highway",
                     "terms": "road,street"
                 },
                 "highway/raceway": {
@@ -7359,7 +7360,7 @@
                     "terms": "off-road racing,offroad moto racing,motocross circuit,motorcycle track,motorsports"
                 },
                 "highway/residential": {
-                    "name": "Residential Road",
+                    "name": "Road to Residential Area",
                     "terms": "road,street"
                 },
                 "highway/rest_area": {
@@ -7379,7 +7380,7 @@
                     "terms": "on ramp,off ramp,ramp,road,street"
                 },
                 "highway/secondary": {
-                    "name": "Secondary Road",
+                    "name": "Major District Road",
                     "terms": "road,street"
                 },
                 "highway/service": {
@@ -7435,7 +7436,7 @@
                     "terms": "on ramp,off ramp,ramp,road,street"
                 },
                 "highway/tertiary": {
-                    "name": "Tertiary Road",
+                    "name": "Village Road",
                     "terms": "road,street"
                 },
                 "highway/track": {
@@ -7459,7 +7460,7 @@
                     "terms": "on ramp,off ramp,ramp,road,street"
                 },
                 "highway/trunk": {
-                    "name": "Trunk Road",
+                    "name": "National Highway",
                     "terms": "road,street"
                 },
                 "highway/turning_circle": {
@@ -7471,7 +7472,7 @@
                     "terms": "cul-de-sac"
                 },
                 "highway/unclassified": {
-                    "name": "Minor/Unclassified Road",
+                    "name": "Unknown Road",
                     "terms": "road,street"
                 },
                 "historic": {
@@ -7543,7 +7544,7 @@
                     "terms": ""
                 },
                 "historic/wayside_cross": {
-                    "name": "Wayside Cross",
+                    "name": "Kurishadi",
                     "terms": ""
                 },
                 "historic/wayside_shrine": {
@@ -8265,7 +8266,7 @@
                     "terms": "berth,dock,jetty,landing,promenade,wharf"
                 },
                 "man_made/pipeline": {
-                    "name": "Pipeline",
+                    "name": "Newer closed pipelines to carry water",
                     "terms": "oil,natural gas,water,sewer,sewage"
                 },
                 "man_made/pipeline/underground": {
@@ -8293,7 +8294,7 @@
                     "terms": "water,oil,gas,petrol"
                 },
                 "man_made/storage_tank/water": {
-                    "name": "Water Tank",
+                    "name": "Tank",
                     "terms": "cistern,water tower"
                 },
                 "man_made/street_cabinet": {
@@ -8674,7 +8675,7 @@
                     "terms": "401k,inheritance,savings,stocks,retirement,wealth management"
                 },
                 "office/financial": {
-                    "name": "Financial Office",
+                    "name": "Financial Services",
                     "terms": ""
                 },
                 "office/forestry": {
@@ -8689,17 +8690,53 @@
                     "name": "Government Office",
                     "terms": ""
                 },
+                "office/government/akshaya": {
+                    "name": "Akshaya Center",
+                    "terms": ""
+                },
+                "office/government/krishi_bhavan": {
+                    "name": "Krishibhavan (Agricultural Office)",
+                    "terms": ""
+                },
+                "office/government/ksrtc": {
+                    "name": "KSRTC",
+                    "terms": ""
+                },
+                "office/government/milk_society": {
+                    "name": "Milk Society",
+                    "terms": ""
+                },
+                "office/government/milma": {
+                    "name": "Milma",
+                    "terms": ""
+                },
+                "office/government/panchayat_office": {
+                    "name": "Panchayat Office",
+                    "terms": ""
+                },
                 "office/government/prosecutor": {
                     "name": "Public Prosecutor's Office",
                     "terms": "attorney general,district attorney,prosecution"
+                },
+                "office/government/ration_shop": {
+                    "name": "Ration shop",
+                    "terms": ""
                 },
                 "office/government/register_office": {
                     "name": "Register Office",
                     "terms": "clerk,marriage,death,birth,certificate"
                 },
+                "office/government/sub_registrar_office": {
+                    "name": "Sub-registrar office",
+                    "terms": ""
+                },
                 "office/government/tax": {
                     "name": "Tax and Revenue Office",
                     "terms": "fiscal authorities,revenue office,tax office"
+                },
+                "office/government/village_office": {
+                    "name": "Village Office",
+                    "terms": ""
                 },
                 "office/guide": {
                     "name": "Tour Guide Office",
@@ -9105,7 +9142,7 @@
                     "terms": "boat,dock,ferry,pier,public transit,public transportation,station,terminal,transit,transportation"
                 },
                 "public_transport/station_light_rail": {
-                    "name": "Light Rail Station",
+                    "name": "Metro Station",
                     "terms": "electric,light rail,public transit,public transportation,rail,station,terminal,track,tram,trolley,transit,transportation"
                 },
                 "public_transport/station_monorail": {
@@ -9205,7 +9242,7 @@
                     "terms": ""
                 },
                 "railway/crossing": {
-                    "name": "Railway Crossing (Path)",
+                    "name": "Railway Gate",
                     "terms": "crossing,pedestrian crossing,railroad crossing,level crossing,grade crossing,path through railroad,train crossing"
                 },
                 "railway/derail": {
@@ -9374,7 +9411,7 @@
                     "terms": ""
                 },
                 "shop/beauty": {
-                    "name": "Beauty Shop",
+                    "name": "Beauty Parlour",
                     "terms": "spa,salon,tanning"
                 },
                 "shop/beauty/nails": {
@@ -9474,7 +9511,7 @@
                     "terms": "cocoa"
                 },
                 "shop/clothes": {
-                    "name": "Clothing Store",
+                    "name": "Textile shop",
                     "terms": "blouses,boutique,bras,clothes,dresses,fashion,pants,shirts,shorts,skirts,slacks,socks,suits,underwear"
                 },
                 "shop/clothes/second_hand": {
@@ -9598,7 +9635,7 @@
                     "terms": "tile"
                 },
                 "shop/florist": {
-                    "name": "Florist",
+                    "name": "Flower Selling Shop",
                     "terms": "flower"
                 },
                 "shop/frame": {
@@ -9630,11 +9667,11 @@
                     "terms": "landscape,mulch,shrub,tree"
                 },
                 "shop/gas": {
-                    "name": "Bottled Gas Shop",
+                    "name": "Gas Agency",
                     "terms": "cng,lpg,natural gas,propane,refill,tank"
                 },
                 "shop/general": {
-                    "name": "General Store",
+                    "name": "Grocery Shop",
                     "terms": "village shop"
                 },
                 "shop/gift": {
@@ -9642,7 +9679,7 @@
                     "terms": "souvenir"
                 },
                 "shop/greengrocer": {
-                    "name": "Greengrocer",
+                    "name": "Fruits and Vegetables Shop",
                     "terms": "fruit,produce,vegetable"
                 },
                 "shop/hairdresser_supply": {
@@ -9650,7 +9687,7 @@
                     "terms": "barber,shampoo,conditioner"
                 },
                 "shop/hairdresser": {
-                    "name": "Hairdresser",
+                    "name": "Barber Shop",
                     "terms": "barber"
                 },
                 "shop/hardware": {
@@ -9698,7 +9735,7 @@
                     "terms": "bracelet,diamond,earrings,gem,gold,jeweler,jewellery,jeweller,necklace,pins,ring,silver"
                 },
                 "shop/kiosk": {
-                    "name": "Kiosk",
+                    "name": "Pettikkada",
                     "terms": ""
                 },
                 "shop/kitchen": {
@@ -10122,7 +10159,7 @@
                     "terms": ""
                 },
                 "tourism/motel": {
-                    "name": "Motel",
+                    "name": "Residential Hotel",
                     "terms": "lodging,motor hotel,overnight accommodations"
                 },
                 "tourism/museum": {

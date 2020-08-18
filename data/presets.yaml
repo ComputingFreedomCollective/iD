@@ -243,6 +243,7 @@ en:
       automated:
         # automated=*
         label: Automated
+        terms: '[translate with synonyms or related terms for ''Automated'', separated by commas]'
       baby_feeding:
         # baby_feeding=*
         label: Baby Nursing Area
@@ -3093,10 +3094,10 @@ en:
         # 'terms: credit union,check,deposit,fund,investment,repository,reserve,safe,savings,stock,treasury,trust,vault'
         terms: '<translate with synonyms or related terms for ''Bank'', separated by commas>'
       amenity/bar:
-        # amenity=bar
-        name: Bar
-        # 'terms: dive,beer,bier,booze'
-        terms: '<translate with synonyms or related terms for ''Bar'', separated by commas>'
+        # 'amenity=bar, drink=juice'
+        name: Fresh Juice Shop
+        # 'terms: dive'
+        terms: '<translate with synonyms or related terms for ''Fresh Juice Shop'', separated by commas>'
       amenity/bar/lgbtq:
         # 'amenity=bar, lgbtq=primary'
         name: LGBTQ+ Bar
@@ -3213,9 +3214,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Cinema'', separated by commas>'
       amenity/clinic:
         # amenity=clinic
-        name: Clinic
+        name: Medical Center
         # 'terms: medical,urgentcare'
-        terms: '<translate with synonyms or related terms for ''Clinic'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Medical Center'', separated by commas>'
       amenity/clinic/abortion:
         # 'amenity=clinic, healthcare=clinic, healthcare:speciality=abortion'
         name: Abortion Clinic
@@ -3261,8 +3262,8 @@ en:
         terms: '<translate with synonyms or related terms for ''Convention Center'', separated by commas>'
       amenity/courthouse:
         # amenity=courthouse
-        name: Courthouse
-        terms: '<translate with synonyms or related terms for ''Courthouse'', separated by commas>'
+        name: Court
+        terms: '<translate with synonyms or related terms for ''Court'', separated by commas>'
       amenity/coworking_space:
         # amenity=coworking_space
         name: Coworking Space
@@ -3310,9 +3311,9 @@ en:
         name: Embassy
       amenity/events_venue:
         # amenity=events_venue
-        name: Events Venue
+        name: Auditorium
         # 'terms: banquet hall,baptism,Bar Mitzvah,Bat Mitzvah,birthdays,celebrations,conferences,confirmation,meetings,parties,party,quinceañera,reunions,weddings'
-        terms: '<translate with synonyms or related terms for ''Events Venue'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Auditorium'', separated by commas>'
       amenity/exhibition_centre:
         # amenity=exhibition_centre
         name: Exposition Center
@@ -3320,9 +3321,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Exposition Center'', separated by commas>'
       amenity/fast_food:
         # amenity=fast_food
-        name: Fast Food
+        name: Thattukada
         # 'terms: restaurant,takeaway'
-        terms: '<translate with synonyms or related terms for ''Fast Food'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Thattukada'', separated by commas>'
       amenity/fast_food/burger:
         # 'amenity=fast_food, cuisine=burger'
         name: Burger Fast Food
@@ -3390,9 +3391,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Fountain'', separated by commas>'
       amenity/fuel:
         # amenity=fuel
-        name: Gas Station
+        name: Petrol Pump
         # 'terms: petrol,fuel,gasoline,propane,diesel,lng,cng,biodiesel'
-        terms: '<translate with synonyms or related terms for ''Gas Station'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Petrol Pump'', separated by commas>'
       amenity/gambling:
         # amenity=gambling
         name: Gambling Hall
@@ -3558,9 +3559,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Payment Terminal'', separated by commas>'
       amenity/pharmacy:
         # amenity=pharmacy
-        name: Pharmacy Counter
+        name: Medical Store
         # 'terms: apothecary,drug store,drugstore,med*,prescription'
-        terms: '<translate with synonyms or related terms for ''Pharmacy Counter'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Medical Store'', separated by commas>'
       amenity/photo_booth:
         # amenity=photo_booth
         name: Photo Booth
@@ -3652,7 +3653,7 @@ en:
         # 'terms: mail processing and distribution center,post depot'
         terms: '<translate with synonyms or related terms for ''Post Sorting Office'', separated by commas>'
       amenity/post_office:
-        # amenity=post_office
+        # 'amenity=post_office, operator=indian_postal_service, operator:type=government'
         name: Post Office
         # 'terms: letter,mail'
         terms: '<translate with synonyms or related terms for ''Post Office'', separated by commas>'
@@ -3663,9 +3664,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Test Prep / Tutoring School'', separated by commas>'
       amenity/prison:
         # amenity=prison
-        name: Prison Grounds
+        name: Jail
         # 'terms: cell,jail,correction'
-        terms: '<translate with synonyms or related terms for ''Prison Grounds'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Jail'', separated by commas>'
       amenity/pub:
         # amenity=pub
         name: Pub
@@ -3731,9 +3732,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Research Institute Grounds'', separated by commas>'
       amenity/restaurant:
         # amenity=restaurant
-        name: Restaurant
+        name: Hotel
         # 'terms: bar,breakfast,cafe,café,canteen,coffee,dine,dining,dinner,drive-in,eat,grill,lunch,table'
-        terms: '<translate with synonyms or related terms for ''Restaurant'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Hotel'', separated by commas>'
       amenity/restaurant/american:
         # 'amenity=restaurant, cuisine=american'
         name: American Restaurant
@@ -3855,9 +3856,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Picnic Shelter'', separated by commas>'
       amenity/shelter/public_transport:
         # 'amenity=shelter, shelter_type=public_transport'
-        name: Transit Shelter
+        name: Bus Shelter
         # 'terms: bus stop,metro stop,public transit shelter,public transport shelter,tram stop shelter,waiting'
-        terms: '<translate with synonyms or related terms for ''Transit Shelter'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Bus Shelter'', separated by commas>'
       amenity/shower:
         # amenity=shower
         name: Shower
@@ -3886,9 +3887,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Food Bank'', separated by commas>'
       amenity/social_facility/group_home:
         # 'amenity=social_facility, social_facility=group_home, social_facility:for=senior'
-        name: Elderly Group Home
+        name: Old age home
         # 'terms: old,senior,living,care home,assisted living'
-        terms: '<translate with synonyms or related terms for ''Elderly Group Home'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Old age home'', separated by commas>'
       amenity/social_facility/homeless_shelter:
         # 'amenity=social_facility, social_facility=shelter, social_facility:for=homeless'
         name: Homeless Shelter
@@ -3926,9 +3927,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Film Studio'', separated by commas>'
       amenity/taxi:
         # amenity=taxi
-        name: Taxi Stand
+        name: Auto Stand
         # 'terms: cab'
-        terms: '<translate with synonyms or related terms for ''Taxi Stand'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Auto Stand'', separated by commas>'
       amenity/telephone:
         # amenity=telephone
         name: Telephone
@@ -4120,9 +4121,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Waste Basket'', separated by commas>'
       amenity/waste_disposal:
         # amenity=waste_disposal
-        name: Garbage Dumpster
+        name: Waste bin
         # 'terms: garbage,rubbish,litter,trash'
-        terms: '<translate with synonyms or related terms for ''Garbage Dumpster'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Waste bin'', separated by commas>'
       amenity/waste_transfer_station:
         # amenity=waste_transfer_station
         name: Waste Transfer Station
@@ -4139,9 +4140,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Animal Watering Place'', separated by commas>'
       amenity/weighbridge:
         # amenity=weighbridge
-        name: Truck Scale
+        name: Weighbridge
         # 'terms: weigh station,weighbridge'
-        terms: '<translate with synonyms or related terms for ''Truck Scale'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Weighbridge'', separated by commas>'
       area:
         # area=yes
         name: Area
@@ -5355,9 +5356,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Pedestrian Street'', separated by commas>'
       highway/primary:
         # highway=primary
-        name: Primary Road
+        name: State Highway
         # 'terms: road,street'
-        terms: '<translate with synonyms or related terms for ''Primary Road'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''State Highway'', separated by commas>'
       highway/primary_link:
         # highway=primary_link
         name: Primary Link
@@ -5380,9 +5381,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Motocross Racetrack'', separated by commas>'
       highway/residential:
         # highway=residential
-        name: Residential Road
+        name: Road to Residential Area
         # 'terms: road,street'
-        terms: '<translate with synonyms or related terms for ''Residential Road'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Road to Residential Area'', separated by commas>'
       highway/rest_area:
         # highway=rest_area
         name: Rest Area
@@ -5399,9 +5400,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Unknown Road Bridge'', separated by commas>'
       highway/secondary:
         # highway=secondary
-        name: Secondary Road
+        name: Major District Road
         # 'terms: road,street'
-        terms: '<translate with synonyms or related terms for ''Secondary Road'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Major District Road'', separated by commas>'
       highway/secondary_link:
         # highway=secondary_link
         name: Secondary Link
@@ -5463,9 +5464,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Street Lamp'', separated by commas>'
       highway/tertiary:
         # highway=tertiary
-        name: Tertiary Road
+        name: Village Road
         # 'terms: road,street'
-        terms: '<translate with synonyms or related terms for ''Tertiary Road'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Village Road'', separated by commas>'
       highway/tertiary_link:
         # highway=tertiary_link
         name: Tertiary Link
@@ -5493,9 +5494,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Trailhead'', separated by commas>'
       highway/trunk:
         # highway=trunk
-        name: Trunk Road
+        name: National Highway
         # 'terms: road,street'
-        terms: '<translate with synonyms or related terms for ''Trunk Road'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''National Highway'', separated by commas>'
       highway/trunk_link:
         # highway=trunk_link
         name: Trunk Link
@@ -5513,9 +5514,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Turning Loop (Island)'', separated by commas>'
       highway/unclassified:
         # highway=unclassified
-        name: Minor/Unclassified Road
+        name: Unknown Road
         # 'terms: road,street'
-        terms: '<translate with synonyms or related terms for ''Minor/Unclassified Road'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Unknown Road'', separated by commas>'
       historic:
         # historic=*
         name: Historic Site
@@ -5595,8 +5596,8 @@ en:
         terms: '<translate with synonyms or related terms for ''Tomb'', separated by commas>'
       historic/wayside_cross:
         # historic=wayside_cross
-        name: Wayside Cross
-        terms: '<translate with synonyms or related terms for ''Wayside Cross'', separated by commas>'
+        name: Kurishadi
+        terms: '<translate with synonyms or related terms for ''Kurishadi'', separated by commas>'
       historic/wayside_shrine:
         # historic=wayside_shrine
         name: Wayside Shrine
@@ -6463,9 +6464,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Floating Pier'', separated by commas>'
       man_made/pipeline:
         # man_made=pipeline
-        name: Pipeline
+        name: Newer closed pipelines to carry water
         # 'terms: oil,natural gas,water,sewer,sewage'
-        terms: '<translate with synonyms or related terms for ''Pipeline'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Newer closed pipelines to carry water'', separated by commas>'
       man_made/pipeline/underground:
         # 'man_made=pipeline, location=underground'
         name: Underground Pipeline
@@ -6497,9 +6498,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Storage Tank'', separated by commas>'
       man_made/storage_tank/water:
         # 'man_made=storage_tank, content=water'
-        name: Water Tank
+        name: Tank
         # 'terms: cistern,water tower'
-        terms: '<translate with synonyms or related terms for ''Water Tank'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Tank'', separated by commas>'
       man_made/street_cabinet:
         # man_made=street_cabinet
         name: Street Cabinet
@@ -6940,8 +6941,8 @@ en:
         terms: '<translate with synonyms or related terms for ''Real Estate Office'', separated by commas>'
       office/financial:
         # office=financial
-        name: Financial Office
-        terms: '<translate with synonyms or related terms for ''Financial Office'', separated by commas>'
+        name: Financial Services
+        terms: '<translate with synonyms or related terms for ''Financial Services'', separated by commas>'
       office/financial_advisor:
         # office=financial_advisor
         name: Financial Advisor
@@ -6960,21 +6961,57 @@ en:
         # office=government
         name: Government Office
         terms: '<translate with synonyms or related terms for ''Government Office'', separated by commas>'
+      office/government/akshaya:
+        # 'building=government, office=government, government=public_service, operator=akshaya_center'
+        name: Akshaya Center
+        terms: '<translate with synonyms or related terms for ''Akshaya Center'', separated by commas>'
+      office/government/krishi_bhavan:
+        # 'building=government, office=government, government=agriculture, operator=krishibhavan'
+        name: Krishibhavan (Agricultural Office)
+        terms: '<translate with synonyms or related terms for ''Krishibhavan (Agricultural Office)'', separated by commas>'
+      office/government/ksrtc:
+        # 'office=government, operator=ksrtc'
+        name: KSRTC
+        terms: '<translate with synonyms or related terms for ''KSRTC'', separated by commas>'
+      office/government/milk_society:
+        # 'amenity=milk_collection, office=government, operator:type=cooperative'
+        name: Milk Society
+        terms: '<translate with synonyms or related terms for ''Milk Society'', separated by commas>'
+      office/government/milma:
+        # 'office=government, operator=milma'
+        name: Milma
+        terms: '<translate with synonyms or related terms for ''Milma'', separated by commas>'
+      office/government/panchayat_office:
+        # 'building=government, office=government, government=panchayat_office, operator=panchayat_office'
+        name: Panchayat Office
+        terms: '<translate with synonyms or related terms for ''Panchayat Office'', separated by commas>'
       office/government/prosecutor:
         # 'office=government, government=prosecutor'
         name: Public Prosecutor's Office
         # 'terms: attorney general,district attorney,prosecution'
         terms: '<translate with synonyms or related terms for ''Public Prosecutor''s Office'', separated by commas>'
+      office/government/ration_shop:
+        # 'building=government, shop=grocery, operator=public_distribution_system'
+        name: Ration shop
+        terms: '<translate with synonyms or related terms for ''Ration shop'', separated by commas>'
       office/government/register_office:
         # 'office=government, government=register_office'
         name: Register Office
         # 'terms: clerk,marriage,death,birth,certificate'
         terms: '<translate with synonyms or related terms for ''Register Office'', separated by commas>'
+      office/government/sub_registrar_office:
+        # 'building=government, office=government, government=register_office, operator=register_office'
+        name: Sub-registrar office
+        terms: '<translate with synonyms or related terms for ''Sub-registrar office'', separated by commas>'
       office/government/tax:
         # 'office=government, government=tax'
         name: Tax and Revenue Office
         # 'terms: fiscal authorities,revenue office,tax office'
         terms: '<translate with synonyms or related terms for ''Tax and Revenue Office'', separated by commas>'
+      office/government/village_office:
+        # 'building=government, office=government, government=village_office, operator=village_office'
+        name: Village Office
+        terms: '<translate with synonyms or related terms for ''Village Office'', separated by commas>'
       office/guide:
         # office=guide
         name: Tour Guide Office
@@ -7468,9 +7505,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Ferry Terminal'', separated by commas>'
       public_transport/station_light_rail:
         # 'public_transport=station, light_rail=yes'
-        name: Light Rail Station
+        name: Metro Station
         # 'terms: electric,light rail,public transit,public transportation,rail,station,terminal,track,tram,trolley,transit,transportation'
-        terms: '<translate with synonyms or related terms for ''Light Rail Station'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Metro Station'', separated by commas>'
       public_transport/station_monorail:
         # 'public_transport=station, monorail=yes'
         name: Monorail Station
@@ -7573,9 +7610,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Railway Under Construction'', separated by commas>'
       railway/crossing:
         # railway=crossing
-        name: Railway Crossing (Path)
+        name: Railway Gate
         # 'terms: crossing,pedestrian crossing,railroad crossing,level crossing,grade crossing,path through railroad,train crossing'
-        terms: '<translate with synonyms or related terms for ''Railway Crossing (Path)'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Railway Gate'', separated by commas>'
       railway/derail:
         # railway=derail
         name: Railway Derailer
@@ -7780,9 +7817,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Bathroom Furnishing Store'', separated by commas>'
       shop/beauty:
         # shop=beauty
-        name: Beauty Shop
+        name: Beauty Parlour
         # 'terms: spa,salon,tanning'
-        terms: '<translate with synonyms or related terms for ''Beauty Shop'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Beauty Parlour'', separated by commas>'
       shop/beauty/nails:
         # 'shop=beauty, beauty=nails'
         name: Nail Salon
@@ -7903,9 +7940,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Chocolate Store'', separated by commas>'
       shop/clothes:
         # shop=clothes
-        name: Clothing Store
+        name: Textile shop
         # 'terms: blouses,boutique,bras,clothes,dresses,fashion,pants,shirts,shorts,skirts,slacks,socks,suits,underwear'
-        terms: '<translate with synonyms or related terms for ''Clothing Store'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Textile shop'', separated by commas>'
       shop/clothes/second_hand:
         # 'shop=clothes, second_hand=only'
         name: Secondhand Clothing Store
@@ -8054,9 +8091,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Flooring Supply Shop'', separated by commas>'
       shop/florist:
         # shop=florist
-        name: Florist
+        name: Flower Selling Shop
         # 'terms: flower'
-        terms: '<translate with synonyms or related terms for ''Florist'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Flower Selling Shop'', separated by commas>'
       shop/frame:
         # shop=frame
         name: Framing Shop
@@ -8092,14 +8129,14 @@ en:
         terms: '<translate with synonyms or related terms for ''Garden Center'', separated by commas>'
       shop/gas:
         # shop=gas
-        name: Bottled Gas Shop
+        name: Gas Agency
         # 'terms: cng,lpg,natural gas,propane,refill,tank'
-        terms: '<translate with synonyms or related terms for ''Bottled Gas Shop'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Gas Agency'', separated by commas>'
       shop/general:
         # shop=general
-        name: General Store
+        name: Grocery Shop
         # 'terms: village shop'
-        terms: '<translate with synonyms or related terms for ''General Store'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Grocery Shop'', separated by commas>'
       shop/gift:
         # shop=gift
         name: Gift Shop
@@ -8107,14 +8144,14 @@ en:
         terms: '<translate with synonyms or related terms for ''Gift Shop'', separated by commas>'
       shop/greengrocer:
         # shop=greengrocer
-        name: Greengrocer
+        name: Fruits and Vegetables Shop
         # 'terms: fruit,produce,vegetable'
-        terms: '<translate with synonyms or related terms for ''Greengrocer'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Fruits and Vegetables Shop'', separated by commas>'
       shop/hairdresser:
         # shop=hairdresser
-        name: Hairdresser
+        name: Barber Shop
         # 'terms: barber'
-        terms: '<translate with synonyms or related terms for ''Hairdresser'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Barber Shop'', separated by commas>'
       shop/hairdresser_supply:
         # shop=hairdresser_supply
         name: Hairdresser Supply Store
@@ -8173,8 +8210,8 @@ en:
         terms: '<translate with synonyms or related terms for ''Jewelry Store'', separated by commas>'
       shop/kiosk:
         # shop=kiosk
-        name: Kiosk
-        terms: '<translate with synonyms or related terms for ''Kiosk'', separated by commas>'
+        name: Pettikkada
+        terms: '<translate with synonyms or related terms for ''Pettikkada'', separated by commas>'
       shop/kitchen:
         # shop=kitchen
         name: Kitchen Design Store
@@ -8678,9 +8715,9 @@ en:
         terms: '<translate with synonyms or related terms for ''Information Terminal'', separated by commas>'
       tourism/motel:
         # tourism=motel
-        name: Motel
+        name: Residential Hotel
         # 'terms: lodging,motor hotel,overnight accommodations'
-        terms: '<translate with synonyms or related terms for ''Motel'', separated by commas>'
+        terms: '<translate with synonyms or related terms for ''Residential Hotel'', separated by commas>'
       tourism/museum:
         # tourism=museum
         name: Museum

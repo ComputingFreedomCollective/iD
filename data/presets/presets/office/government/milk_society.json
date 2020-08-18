@@ -1,0 +1,23 @@
+{
+    "icon": "temaki-town_hall",
+    "fields": [
+        "{office}",
+        "operator"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+    ],
+    "tags": {
+        "amenity": "milk_collection",
+        "office": "government",
+        "operator:type": "cooperative"
+    },
+    "reference": {
+        "key": "amenity",
+        "value": "milk_collection"
+    },
+    "name": "Milk Society"
+}

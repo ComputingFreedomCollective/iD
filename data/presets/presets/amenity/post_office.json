@@ -32,7 +32,9 @@
         "mail"
     ],
     "tags": {
-        "amenity": "post_office"
+        "amenity": "post_office",
+        "operator": "indian_postal_service",
+        "operator:type": "government"
     },
     "name": "Post Office"
 }

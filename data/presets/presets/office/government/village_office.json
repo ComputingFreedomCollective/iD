@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-town_hall",
+    "fields": [
+        "{office}",
+        "operator"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+    ],
+    "tags": {
+        "building": "government",
+        "office": "government",
+        "government": "village_office",
+        "operator": "village_office"
+    },
+    "reference": {
+        "key": "operator",
+        "value": "village_office"
+    },
+    "name": "Village Office"
+}

@@ -1,0 +1,24 @@
+{
+    "icon": "temaki-town_hall",
+    "fields": [
+        "{office}",
+        "operator"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+    ],
+    "tags": {
+        "building": "government",
+        "office": "government",
+        "government": "panchayat_office",
+        "operator": "panchayat_office"
+    },
+    "reference": {
+        "key": "operator",
+        "value": "panchayat_office"
+    },
+    "name": "Panchayat Office"
+}

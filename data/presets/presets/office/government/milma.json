@@ -1,0 +1,22 @@
+{
+    "icon": "temaki-town_hall",
+    "fields": [
+        "{office}",
+        "operator"
+    ],
+    "geometry": [
+        "point",
+        "area"
+    ],
+    "terms": [
+    ],
+    "tags": {
+        "office": "government",
+        "operator": "milma"
+    },
+    "reference": {
+        "key": "operator",
+        "value": "milma"
+    },
+    "name": "Milma"
+}
